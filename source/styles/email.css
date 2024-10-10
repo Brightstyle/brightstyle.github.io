@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family:  Arial,Arial, Helvetica, sans-serif;
+  background:linear-gradient(280deg, #2d1735 2%, #3642eb 98%) ;
+background-size: cover ;
+
+}
+
+.container{
+height: 60vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.form {
+  width: 768px;
+  padding: 80px 60px 100px;
+  background-color: #4031c9;
+  border: 1px solid #34183e;
+}
+
+h2 {
+font-size: 18px;
+text-align: center;
+color: rgb(11, 240, 240);
+text-transform: uppercase;
+}
+
+.data_block {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+row-gap: 35px;
+margin-top: 20px;
+}
+
+input {
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid #b215eb;
+  font-size: 24px;
+  color: rgb(6, 2, 253);
+}
+
+input::placeholder {
+font-size: 24px;
+color: #1004ef;
+}
+
+.name {
+  width: 100%;
+}
+
+.mail {
+  width: 290px;
+}
+
+.phone {
+width: 290px;
+}
+
+.text_area {
+  border: 1px #2d1735;
+  border-radius: 13px;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  font-size: 16px;
+  color: #ef5822;
+}
+
+textarea {
+border:none;
+color: #170368;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+
+textarea:focus::placeholder {
+  color: #051ee0;
+}
+
+.send {
+  width: 100%;
+  text-align: right;
+}
+
+button {
+  padding: 15px 15px;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 15px;
+color:  #ff5e00;
+border-radius: 5px;
+border: 3px #f26b04;
+background: #6977f5fe;
+}
+
+button:active {
+  transform: translateY(2px);
+}
